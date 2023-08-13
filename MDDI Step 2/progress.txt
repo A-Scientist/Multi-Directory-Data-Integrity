@@ -1,3 +1,6 @@
+13/08/2023
+Uploaded the repo to git rather than the "repo" in onedrive and made sure i can run python in VScode linux. Seeing as how part of my goals was to practice and get familiar with git, this is actually an important step.
+
 09/07/2023
 wow, here i am again
 progress: made it so that it can make a script file or decide not to if one with that name already exists
