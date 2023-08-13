@@ -1,0 +1,1 @@
+Reminder, it does not protect the user from them self when the program is halted, it is intended to only protect the user from the dumbest mistakes when program is not halted (like deleting large parts of backup accidently) , over time data corruption,  drive failure, and drive destruction from an outside source. 

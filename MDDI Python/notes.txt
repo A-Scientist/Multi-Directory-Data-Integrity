@@ -1,0 +1,30 @@
+===Muti Directory Data Integrity===
+A program where you can select 3 or more directories (ideally from at least three separate physical drives and one online drive) and compare the content bitwise of each, fixing any one source that does not match the other 2+.
+
+==Base Ideas==
+Readme.txt file explaining what the program does.
+GUI (graphical user interface)
+Ability to choose 3 connected directories to check
+Start and Halt buttons to start and stop checking process
+Change the time between dirctory check 
+Can automatically find the minimum check time for a set of data
+Save files that records a script's information in order to operate program closure.
+Warning system that adapts to the number of failed directories
+	{in need to do more work to figure out how to compare data between top directories in order to make comments on how to protect data file to file}
+	Any but 3: Please replace failure or edit script parameters
+	All but 2: System non-functional, please replace failure
+	All but 1: Critical, please repair system
+	ALl: Total loss, please repair system
+
+==Strech Ideas==
+Button that sync all directories from one (with lots of are you sures)
+Add more than 3 directories to check
+Program should be able to operate on read only drives.
+Email notification when problem occurs
+
+==Steps==
+1. Make a box appear in windows DONE
+2. Make a program that can take in 3 directories as text files names as strings, add to gui
+3. Make those text files selectable from file explorer, add to gui
+4. Add a button to gui, look at the 3 files and make sure they contain the same information, returned an answer as a Boolean
+6. Make another button, identify files that do not contain the same information, returned as a txt list of file names, and identify files that do not exist in one or more of the other directories, returned as a txt list per directory

@@ -1,0 +1,27 @@
+09/07/2023
+wow, here i am again
+progress: made it so that it can make a script file or decide not to if one with that name already exists
+it can now make a list of scripts it found or has created recently
+made a bunch of TODOs so i know what to do next time
+
+28/05/2023
+i am, once again, not sure where to start, not good for promising i will start it soon
+althought typing this is something i think
+let me re-run myself over the premise of the project
+
+an application that takes in three or more file backup locations and saves them to a perminant memory location (like a file)
+
+it also takes a time scale (it can be pure seconds for the time being) for when it checks data and records that as well
+
+it makes sure all but one of them are empty and that one has content, else it raises a warning that it cannot continue
+
+if you continue, it copies the content of the full one into the empty ones
+
+it then makes all non main directories read only
+
+the interface changes to one that allows the user to change the check time and update all from the main once a change has been deliberately made, as well as be turned off again
+
+	Constant checking mode can be described as every X seconds the main code triggers
+	it scans the content of each directory and file and compares it to its subsiquent directory and file
+	if it finds that one split is defferent from the others, it changes it to match
+	if it finds more than one difference, it stops and gives a warning, and turns off checking
