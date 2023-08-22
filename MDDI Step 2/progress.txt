@@ -1,3 +1,8 @@
+21/08/2023
+added some changes that needed to be made becuase i am now doing some editing on linux. one of my lines requires
+that I ask for a directory and linux and windows use different slashes in their directory names, so i had to compensate for that.
+Also, I have decided to use command line git on linux and desktop git on windows so i get practive with both. 
+
 13/08/2023
 Uploaded the repo to git rather than the "repo" in onedrive and made sure i can run python in VScode linux. Seeing as how part of my goals was to practice and get familiar with git, this is actually an important step.
 
