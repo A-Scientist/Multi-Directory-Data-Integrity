@@ -2,16 +2,24 @@
 #11/06/2023
 
 import os
+from sys import platform
 from eRBI import *
 
 scripts = []
-scriptsPath = f"{os.getcwd()}\MDDI_Scripts"
+plat=platform
+print(plat)
+if plat == "linux" or plat == "linux2":
+	directorySlash = "/"
+elif plat == "win32" or plat == "win64":
+	directorySlash = "\\"
+scriptsPath = f"{os.getcwd()}{directorySlash}MDDI_Scripts"
 
 def onStartup():
 	print(f"Location of my MDDI Scripts: {scriptsPath}")
 	if os.path.exists(scriptsPath): #find the folder with the script files in it and remember them
 		global scripts
 		scripts = os.listdir(scriptsPath)
+		print(scripts)
 	else: #if it doesn't exist, make one
 		os.mkdir(scriptsPath)
 	
